@@ -36,6 +36,11 @@ public class ReceiptService {
         return receipt.getPoints();
     }
 
+    /*
+    calculate*Points methods are made package private for testability.
+    They will not be used outside of this class.
+    */
+
     // Rule 1: Points based on the length of retailer's name
     int calculateRetailerNamePoints(String retailer) {
         if (retailer == null || retailer.isEmpty()) return 0;

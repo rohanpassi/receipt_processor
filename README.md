@@ -49,14 +49,14 @@ This is a Spring Boot application that processes receipts to calculate points ba
     Send a POST request to process a receipt:
     
     ```http
-    POST http://localhost:8080/process-receipt
+    POST http://localhost:8080/receipts/process
     ```
     Get Points for a Receipt:
     
     Send a GET request to retrieve points for a processed receipt:
     
     ```http
-    GET http://localhost:8080/get-points/{receiptId}
+    GET http://localhost:8080/receipts/{id}/points
     ```
 
 5. Running Tests
