@@ -30,6 +30,11 @@ This is a Spring Boot application that processes receipts to calculate points ba
 
    * Option 2: Running with Docker:
      Build the Docker Image.
+   
+    To build the Docker Image, you need the jar file. If you cannot build the jar file, there is one in the repo.
+    ```bash
+   jar/receiptprocessor-1.0.0-SNAPSHOT.jar
+   ```
      Make sure Docker is installed and running. Then, build the Docker image:
      ```bash
      docker build -t receiptprocessor:latest .
