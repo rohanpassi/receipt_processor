@@ -1,6 +1,6 @@
 # Receipt Processor Application
 ## Overview
-This is a Spring Boot application that processes receipts to calculate points based on specific rules. The points can be calculated based on various factors such as retailer name, total amount, item descriptions, and purchase date and time.
+This is a Spring Boot application that processes receipts to calculate points based on specific rules. The points can be calculated based on various factors such as retailer name, total amount, item descriptions, and purchase date and time. For the complete problem statement visit: https://github.com/fetch-rewards/receipt-processor-challenge
 
 ### Prerequisites
 * Java 17 (or compatible JDK)
